@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pray Client",
-  description: "Pray Client Application",
+  title: "Эрдэнэ Зуу Хийд",
+  description: "Монгол тулгатны анхны нандин шүтээн - Эрдэнэ Зуу Хийд",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="mn">
       <body className={inter.className}>{children}</body>
     </html>
   );
